@@ -1,4 +1,4 @@
-# Calculate how old the user will be in the 2025
+# Calculate how old the user will be in the 2050
 current_age = input ("How old are you? ")
 current_year = 2023
 future_year = 2050
