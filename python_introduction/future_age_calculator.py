@@ -4,6 +4,7 @@ current_year = 2023
 future_year = 2050
 # subract 2050 from 2023 which gives you 27.
 #thus:
-age = 27 + int (current_age)
+sub = future_year - (current_year)
+age = int(current_age) + sub
 print (f"In 2050, you will be {age} years old")
 
