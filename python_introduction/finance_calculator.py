@@ -3,9 +3,9 @@
 # With a fixed interest rate to show the effect of compound interest.
 
 monthly_income = float(input ("Enter your monthly income: "))
-Total_monthly_expenses = float(input ("Enter your total monthly expenses: "))
+monthly_expenses = float(input ("Enter your total monthly expenses: "))
 # Calculate the monthly savings by subtracting monthly expenses from the monthly income.
-monthly_savings = int(monthly_income) -  int(Total_monthly_expenses)
+monthly_savings = monthly_income - monthly_expenses
 print ("Your monthly savings are $", monthly_savings)
 
 # Project Annual Savings
