@@ -23,8 +23,11 @@ elif time_bound == "no":
 else:
     reminder += ". Time sensitivity not specified."
 
-# Print final reminder
-print("\nReminder:", reminder)
+# Special case for low priority and not time-bound
+if priority == "low" and time_bound == "no":
+    print(f"Note: '{task}' is a low priority task Consider completing it when you have free time.")
+else:
+    print(f"Reminder: {reminder}")
         
 
             
