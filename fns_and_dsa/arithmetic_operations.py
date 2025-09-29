@@ -1,4 +1,4 @@
-def perform_operations(num1, num2, operation, result_type):
+def perform_operation(num1, num2, operation, result_type):
     if operation == "add":
         result = num1 + num2
     elif operation == "subtract":
@@ -22,5 +22,5 @@ def perform_operations(num1, num2, operation, result_type):
         raise ValueError("Invalid result type")
     
     
-    result = perform_operations(num1, num2, operation)
+    result = perform_operation(num1, num2, operation)
     print(f"Result: {result}")
