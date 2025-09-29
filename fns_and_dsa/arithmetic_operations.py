@@ -1,4 +1,4 @@
-def perform_operation(num1, num2, opration):
+def perform_operation(num1, num2, operation):
     operation = ("+", "-", "*", "/")
     match operation:
         case "+":
