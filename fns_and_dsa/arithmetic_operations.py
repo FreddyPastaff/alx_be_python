@@ -1,26 +1,21 @@
-def perform_operation(num1, num2, operation,):
-    if operation == "add":
-        result = num1 + num2
-    elif operation == "subtract":
-        result = num1 - num2
-    elif operation == "multiply":
-        result = num1 * num2
-    elif operation == "divide":
-        if num2 == 0:
-            raise ValueError("Cannot divide by zero")
-        result = num1 / num2
-    else:
-        raise ValueError("Invalid operation")
+def perform_operation(num1, num2, opration):
+    operation = ("+", "-", "*", "/")
+    match operation:
+        case "+":
+            return num1 + num2
+        case "-":
+            return num1 + num2
+        case "*":
+            return num1 * num2
+        case "/":
+            return "Error: Cannot divide by zero"
+        case _:
+            return "Invalid operation"
 
-    if operation == "int":
-        return int(result)
-    elif operation == "float":
-        return float(result)
-    elif operation == "str":
-        return str(result)
-    else:
-        raise ValueError("Invalid result type")
+
     
-    
-    result = perform_operation(num1, num2, operation)
-    print(f"Result: {result}")
+
+
+
+
+
