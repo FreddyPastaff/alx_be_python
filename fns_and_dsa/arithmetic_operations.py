@@ -21,3 +21,6 @@ def perform_operations(num1, num2, operation, result_type):
     else:
         raise ValueError("Invalid result type")
     
+    
+    result = perform_operations(num1, num2, operation)
+    print(f"Result: {result}")
