@@ -1,4 +1,4 @@
-def perform_operation(num1, num2, operation, result_type):
+def perform_operation(num1, num2, operation,):
     if operation == "add":
         result = num1 + num2
     elif operation == "subtract":
@@ -12,11 +12,11 @@ def perform_operation(num1, num2, operation, result_type):
     else:
         raise ValueError("Invalid operation")
 
-    if result_type == "int":
+    if operation == "int":
         return int(result)
-    elif result_type == "float":
+    elif operation == "float":
         return float(result)
-    elif result_type == "str":
+    elif operation == "str":
         return str(result)
     else:
         raise ValueError("Invalid result type")
