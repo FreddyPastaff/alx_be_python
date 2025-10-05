@@ -15,6 +15,6 @@ def withdraw(self, amount):
         return f"New balance: ${self.account_balance:.2f}"
 
 # Balance Inquiry: 
-def check_account_balance(self):
+def display_balance(self):
     return f"current balance: ${self.account_balance:.2f}"
 
