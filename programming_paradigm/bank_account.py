@@ -12,7 +12,7 @@ def withdraw(self, amount):
         return "Insufficient fund"
     else:
         self.account_balance -= amount
-        return f"New balance: ${self.account_balance:.2f}"
+        return f"Withdrawn: ${amount:.2f}"
 
 # Balance Inquiry: 
 def display_balance(self):
