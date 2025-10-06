@@ -1,5 +1,5 @@
 # robust_division_calculator.py
-def sef_divide(numerator, denominator):
+def safe_divide(numerator, denominator):
     try:
         # convert inputs to float
         num = float(numerator)
