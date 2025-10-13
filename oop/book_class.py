@@ -19,7 +19,7 @@ class Book:
         print(f"Deleting book: {self.title}")
 
 # user-friendly string representation
-    def __setattr__(self):
+    def __str__(self):
         """Returns a readable string describing the book.
     Example: 1984 by George Orwell, published in 1949"""
         return f"{self.title} by {self.author}, published in {self.year}"
