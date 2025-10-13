@@ -20,7 +20,7 @@ class EBook(Book):
         self.file_size = file_size
     
     def __str__(self):
-        return super().__str__() + f", File Size: {self.file_size}KB"
+        return f"Ebook: {self.title} by {self.author} , File Size: {self.file_size}KB"
 
 # Derived Class - PrintBook
 
@@ -33,7 +33,7 @@ class PrintBook(Book):
 
         self.page_count = page_count
     def __str__(self):
-        return super().__str__() + f", Page Count: {self.page_count}"
+        return f"PrintBook: {self.title} by {self.author} , {self.page_count}"
     
 # Compostion - Library
 
