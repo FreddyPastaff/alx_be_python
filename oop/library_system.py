@@ -7,7 +7,7 @@ class Book:
 
     def __str__(self):
         # String representation of the book
-        return f"Title: {self.title}, by: {self.author}"
+        return f"Title: {self.title}, by {self.author}"
     
 # Derived Class - EBook
 
