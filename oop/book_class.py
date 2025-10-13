@@ -16,7 +16,7 @@ class Book:
 
     def __del__(self):
         """Prints a message when the Book object is deleted."""
-        print(f"Deleting book: {self.title}")
+        print(f"Deleting {self.title}")
 
 # user-friendly string representation
     def __str__(self):
